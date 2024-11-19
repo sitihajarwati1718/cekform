@@ -1,0 +1,6 @@
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    ID Karyawan: <input type="text" name="employee_id" required><br>
+    Pilih dokumen untuk diunggah:
+    <input type="file" name="fileToUpload" id="fileToUpload" required><br>
+    <input type="submit" value="Unggah Dokumen" name="submit">
+</form>
